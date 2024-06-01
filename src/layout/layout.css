@@ -1,0 +1,31 @@
+.layout {
+  width: 100vw;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.navbar {
+  width: 95%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ul-style {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.h-100 {
+  width: 100%;
+  height: 80vh;
+}
+
+.basis-50 {
+  flex-basis: 50%;
+}

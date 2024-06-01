@@ -1,0 +1,162 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.LogIn-button {
+  color: #000;
+  background-color: #f6f0e8;
+}
+
+.Free-Trail-button {
+  color: #ffffff;
+  background-color: #14203e;
+}
+
+.buttons-style {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.hero {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #f6f0e8;
+}
+
+.share {
+  position: absolute;
+  top: 0;
+}
+
+.image-card-items {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.image-card {
+  height: 231px;
+  width: 290px;
+  background-color: #000;
+}
+
+.share-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 1rem 0;
+  background-color: #ffffff;
+}
+
+.share-section-items {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  background-color: #ffffff;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-lighter {
+  font-weight: lighter;
+}
+
+.hr {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.share-section-para {
+  width: 40%;
+  text-align: center;
+  line-height: 0.1rem;
+  margin: 2rem auto;
+  border-bottom: 1px solid #00000052;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 3.6rem;
+  font-weight: "bold";
+  width: "40%";
+  text-align: "center";
+  line-height: "1";
+}
+
+.hum-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    padding: 1rem 0 0 0;
+    font-size: 2.4rem;
+    width: 80% !important;
+  }
+
+  .li-style {
+    border-bottom: 1px solid #a19e9e;
+  }
+
+  .hero-sec-title {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+
+  .share-section-items {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .collapse-nav {
+    display: none;
+  }
+
+  .navbar {
+    width: 85% !important;
+  }
+
+  .ul-style {
+    padding: 0 2rem 1rem 2rem;
+    flex-direction: column;
+  }
+
+  .share-section-para {
+    width: 70%;
+  }
+
+  .img-style {
+    width: 280px !important;
+    height: 280px !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .hide-menu {
+    display: none;
+  }
+}
